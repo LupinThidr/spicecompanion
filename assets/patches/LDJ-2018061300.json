@@ -1,0 +1,82 @@
+[
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2018061300,
+    "name": "Unlock All Songs",
+    "description": "Bypasses all unlock requirements on songs",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "7410",
+        "dataEnabled": "9090",
+        "dataOffset": 738002
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2018061300,
+    "name": "Premium Free (1 Player Mode)",
+    "description": "Enables the PREMIUM FREE mode for single-player",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "7514",
+        "dataEnabled": "EB14",
+        "dataOffset": 893897
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2018061300,
+    "name": "Premium Free Timer Freeze",
+    "description": "Freezes the timer in PREMIUM FREE mode, allowing unlimited play until exit",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "FFC8",
+        "dataEnabled": "9090",
+        "dataOffset": 747565
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2018061300,
+    "name": "Cursor lock",
+    "description": "After song finishes, song select remains on previous song",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "741D",
+        "dataEnabled": "9090",
+        "dataOffset": 906412
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2018061300,
+    "name": "CS-Style Song Start Delay",
+    "description": "Holding START will pause the song at the beginning until you release it",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "7D25",
+        "dataEnabled": "9090",
+        "dataOffset": 993642
+      }
+    ]
+  }
+]

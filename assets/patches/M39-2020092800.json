@@ -1,0 +1,138 @@
+[
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "E: Drive Fix",
+    "description": "Fix crash caused by no E: drive",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "653A2F",
+        "dataEnabled": "646576",
+        "dataOffset": 2648744
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "HDMI Audio Fix",
+    "description": "Fix HDMI audio issues",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "85C07596",
+        "dataEnabled": "90909090",
+        "dataOffset": 1262636
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "Prevent Windows volume change on boot",
+    "description": "If your volume gets forced to max, turn this on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "83",
+        "dataEnabled": "C3",
+        "dataOffset": 1273904
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "Boot to Event Mode",
+    "description": "Forces the game to boot into Event Mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "8B00C3CC",
+        "dataEnabled": "31C040C3",
+        "dataOffset": 1084864
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "Remove Timer",
+    "description": "Removes the in-game timer",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 928076
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "Skip Menu and Long Note Tutorials",
+    "description": "Skips both the menu and long note tutorials",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 167435
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 167399
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 568945
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2020092800,
+    "name": "Unlock All Songs",
+    "description": "Unlocks all the songs in the game",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 1102562
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "741B",
+        "dataEnabled": "9090",
+        "dataOffset": 1102822
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "84C0",
+        "dataEnabled": "B001",
+        "dataOffset": 1102843
+      }
+    ]
+  }
+]

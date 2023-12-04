@@ -1,0 +1,197 @@
+[
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "All songs/difficulties unlocked",
+    "description": "Bypasses unlocks on all songs and difficulties",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "E8094302",
+        "dataEnabled": "B80D0000",
+        "dataOffset": 1389042
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B442420E83EEBFFFF",
+        "dataEnabled": "B80300000090909090",
+        "dataOffset": 1793849
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "All songs \"Safe\"",
+    "description": "Failing early won't drop you out of your session",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "32C0",
+        "dataEnabled": "B001",
+        "dataOffset": 1518811
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "No \"Safe\" banner on jackets",
+    "description": "Remove visual clutter",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "00",
+        "dataOffset": 3060716
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "Boot into Event Mode",
+    "description": "Starts the game in EVENT MODE",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "00",
+        "dataEnabled": "01",
+        "dataOffset": 1669075
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "PFree (Unlimited plays)",
+    "description": "Song clears/scores only, mission progress and custom settings do not save",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "00",
+        "dataEnabled": "02",
+        "dataOffset": 1884431
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B83641000008D480183F90456577F52",
+        "dataEnabled": "B8010000008983641000009056579090",
+        "dataOffset": 1884886
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "Hide PASELI text",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0F84",
+        "dataEnabled": "90E9",
+        "dataOffset": 775101
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "Omega Dimension Matching scene as default",
+    "description": "Replaces stock matching scene with Omega Dimension matching",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "88743010",
+        "dataEnabled": "E4683010",
+        "dataOffset": 3516392
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "QC Mode",
+    "description": "Replaces IC Card Check in test menu",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "6AFF680BCB",
+        "dataEnabled": "E9FB0B0000",
+        "dataOffset": 20144
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "4943204341524420434845434B",
+        "dataEnabled": "5143204D4F4445202020202020",
+        "dataOffset": 3072816
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2018011600,
+    "dateCodeMax": 2018011600,
+    "name": "English folder text",
+    "description": "FX-L button on appeal card and song screens",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8352839383658342836A8385815B82B582DC82B782A98148",
+        "dataEnabled": "436F6E74696E756520506C6179696E673F00000000000000",
+        "dataOffset": 3006811
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8352839383658358836700008356838A815B8359000000004752414445000000434C454152204D41524B0000545241434B204C5600000000835783838393838B",
+        "dataEnabled": "434F4E5445535453000000005345524945530000000000004752414445000000434C454152204D41524B0000545241434B204C560000000047454E5245000000",
+        "dataOffset": 3056584
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "82A88B4382C993FC82E8",
+        "dataEnabled": "4641564F524954455300",
+        "dataOffset": 3057312
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8349838A83578369838B91BC0000000042454D414E490000464C4F4F52000000837B815B834A838D834383685B737A3A31325D5B706F73723A302C2D355D544D00000000455849542054554E45530000938C95FB8341838C83938357",
+        "dataEnabled": "204F524947494E414C5300000000000042454D414E490000464C4F4F52000000564F43414C4F4944000000005B737A3A31325D5B706F73723A302C2D355D544D00000000455849542054554E45530000544F55484F55000000000000",
+        "dataOffset": 3059120
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "83898343835A8393835800008DC58BDF8E67977082B582BD83418373834A",
+        "dataEnabled": "4C4943454E53450000000000524543454E544C5920555345440000000000",
+        "dataOffset": 3303464
+      }
+    ]
+  }
+]

@@ -1,0 +1,66 @@
+[
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013090900,
+    "name": "Premium Free (1 Player Mode)",
+    "description": "Enables the PREMIUM FREE mode for single-player",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 324316
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013090900,
+    "name": "Unlock All Songs",
+    "description": "Bypasses all unlock requirements on songs",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "7509",
+        "dataEnabled": "9090",
+        "dataOffset": 299549
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013090900,
+    "name": "Shorter monitor check",
+    "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "B004",
+        "dataEnabled": "2C01",
+        "dataOffset": 446586
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013090900,
+    "name": "6 digits in monitor check",
+    "description": "Purely visual, does not affect anything besides the FPS display",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "34",
+        "dataEnabled": "36",
+        "dataOffset": 1490389
+      }
+    ]
+  }
+]

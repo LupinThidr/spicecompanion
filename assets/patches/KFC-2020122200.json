@@ -1,0 +1,230 @@
+[
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "All songs/difficulties unlocked",
+    "description": "Bypasses unlocks on all songs and difficulties",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B4C2434E8C2090000",
+        "dataEnabled": "B80300000090909090",
+        "dataOffset": 5018821
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "E889C50800",
+        "dataEnabled": "B80D000000",
+        "dataOffset": 5601234
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "440FB6742430",
+        "dataEnabled": "41BE03000000",
+        "dataOffset": 4976768
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "All songs \"Safe\"",
+    "description": "Failing early won't drop you out of your session",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "06",
+        "dataEnabled": "13",
+        "dataOffset": 6145796
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "A4",
+        "dataEnabled": "00",
+        "dataOffset": 6145811
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Premium Free Timer Freeze",
+    "description": "Freezes the timer in Premium Free mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "FF1565193700488B442430",
+        "dataEnabled": "48C7C00100000090909090",
+        "dataOffset": 3181597
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Boot into Event Mode",
+    "description": "Starts the game in EVENT MODE",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "33C0C7410864050000488901C3CCCCCCCC",
+        "dataEnabled": "31C0678D4001C7410864050000488901C3",
+        "dataOffset": 4959200
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Enable ARS (Alternative Rate System) in Light Start",
+    "description": "Allows enabling of ARS on Light Start",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "07",
+        "dataEnabled": "45",
+        "dataOffset": 5203659
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Skip Global Matching Screen",
+    "description": "Useful to play with Omega Dimension Ex-Track",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "4D",
+        "dataEnabled": "4E",
+        "dataOffset": 7484576
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "All Appeal Cards Unlocked",
+    "description": "Unlocks all the selectable Appeal Cards",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "19",
+        "dataEnabled": "00",
+        "dataOffset": 5039474
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "All Crew Unlocked",
+    "description": "Unlocks all selectable crew members",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "95",
+        "dataEnabled": "91",
+        "dataOffset": 5042283
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "SSE4.2 Fix",
+    "description": "Allows the game to run on CPUs not supporting SSE4.2, if you can successfully boot the game, do NOT check this",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "F3450FB8C8",
+        "dataEnabled": "67458D48FF",
+        "dataOffset": 2542925
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "F3450FB8CA",
+        "dataEnabled": "448D4E0290",
+        "dataOffset": 2650630
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Shared mode WASAPI",
+    "description": "Replaces the first audio device init attempt, do NOT check this if your audio is fine",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "BA03000000",
+        "dataEnabled": "BA00000000",
+        "dataOffset": 6513493
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Freeze timer in all modes",
+    "description": "Useful to play with Omega Dimension Ex-Track",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "FFCA",
+        "dataEnabled": "9090",
+        "dataOffset": 4177380
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
+    "name": "Force enable headphones",
+    "description": "Overrides headphone detection to always be enabled, useful for cabinets",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "898B9000000084C97408",
+        "dataEnabled": "C7839000000001000000",
+        "dataOffset": 6386168
+      }
+    ]
+  }
+]

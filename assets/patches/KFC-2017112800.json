@@ -1,0 +1,312 @@
+[
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "All songs/difficulties unlocked",
+    "description": "Bypasses unlocks on all songs and difficulties",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "E8F94102",
+        "dataEnabled": "B80D0000",
+        "dataOffset": 1384770
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B442420E8A6ECFFFF",
+        "dataEnabled": "B80300000090909090",
+        "dataOffset": 1788465
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "All songs \"Safe\"",
+    "description": "Failing early won't drop you out of your session",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "32C0",
+        "dataEnabled": "B001",
+        "dataOffset": 1514247
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "No \"Safe\" banner on jackets",
+    "description": "Remove visual clutter",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "00",
+        "dataOffset": 3054660
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Prevent Windows volume change on boot",
+    "description": "If your volume gets forced to max, turn this on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "E821030000",
+        "dataEnabled": "9090909090",
+        "dataOffset": 2380266
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Boot into Event Mode",
+    "description": "Starts the game in EVENT MODE",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "00",
+        "dataEnabled": "01",
+        "dataOffset": 1664354
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Disable EVENT MODE/FREE PLAY text",
+    "description": "Removes the white corner text",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "E86B",
+        "dataEnabled": "EB03",
+        "dataOffset": 772384
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "PFree (Unlimited plays)",
+    "description": "Song clears/scores only, mission progress and custom settings do not save",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "00",
+        "dataEnabled": "02",
+        "dataOffset": 1878783
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B83641000008D480183F90456577F52",
+        "dataEnabled": "B8010000008983641000009056579090",
+        "dataOffset": 1879238
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Hispeed values from 0.1 to 20.0",
+    "description": "Allows a finer range of adjustment on HI-SPEED to 0.1 to 20.0",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "DD05F8872D10",
+        "dataEnabled": "D905A0892D10",
+        "dataOffset": 1186187
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "DD0500882D10",
+        "dataEnabled": "D905E4862D10",
+        "dataOffset": 1186208
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "DD05F8872D10",
+        "dataEnabled": "D905A0892D10",
+        "dataOffset": 1184193
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "DD0500882D10",
+        "dataEnabled": "D905E4862D10",
+        "dataOffset": 1184187
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Allow ARS (Alternative Rate System) Option",
+    "description": "At gauge select, go to excessive and press BT-D to enable",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 1512052
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Non-Effective Rate gauges start at 0%",
+    "description": "This affects all \"Hard\" Gauge types",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "1027",
+        "dataEnabled": "0100",
+        "dataOffset": 1158352
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Non-Effective Rate gauges do not recover",
+    "description": "This affects all \"Hard\" Gauge types",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "015048",
+        "dataEnabled": "909090",
+        "dataOffset": 1159498
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Remove Combo/Chain Display",
+    "description": "Removes the in-game combo/chain display",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B4508",
+        "dataEnabled": "909090",
+        "dataOffset": 1188017
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Omega Dimension Matching scene as default",
+    "description": "Replaces stock matching scene with Omega Dimension matching",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "DC5F3010",
+        "dataEnabled": "38543010",
+        "dataOffset": 3509056
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "Freeze timer in all modes",
+    "description": "Useful to play with Omega Dimension Ex-Track",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B436085C07404",
+        "dataEnabled": "90909090909090",
+        "dataOffset": 482331
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "QC Mode",
+    "description": "Replaces IC Card Check in test menu",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "6AFF686BB4",
+        "dataEnabled": "E9FB0B0000",
+        "dataOffset": 20192
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "4943204341524420434845434B",
+        "dataEnabled": "5143204D4F4445202020202020",
+        "dataOffset": 3066720
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2017112800,
+    "name": "English folder text",
+    "description": "FX-L button on appeal card and song screens",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8352839383658358836700008356838A815B8359000000004752414445000000434C454152204D41524B0000545241434B204C5600000000835783838393838B",
+        "dataEnabled": "434F4E5445535453000000005345524945530000000000004752414445000000434C454152204D41524B0000545241434B204C560000000047454E5245000000",
+        "dataOffset": 3050528
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "82A88B4382C993FC82E8",
+        "dataEnabled": "4641564F524954455300",
+        "dataOffset": 3051256
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8349838A83578369838B91BC0000000042454D414E490000464C4F4F52000000837B815B834A838D834383685B737A3A31325D5B706F73723A302C2D355D544D00000000455849542054554E45530000938C95FB8341838C83938357",
+        "dataEnabled": "204F524947494E414C5300000000000042454D414E490000464C4F4F52000000564F43414C4F4944000000005B737A3A31325D5B706F73723A302C2D355D544D00000000455849542054554E45530000544F55484F55000000000000",
+        "dataOffset": 3053064
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "83898343835A8393835800008DC58BDF8E67977082B582BD83418373834A",
+        "dataEnabled": "4C4943454E53450000000000524543454E544C5920555345440000000000",
+        "dataOffset": 3296608
+      }
+    ]
+  }
+]

@@ -1,0 +1,180 @@
+[
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Force enable fast/slow",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "8B4144",
+        "dataEnabled": "31C040",
+        "dataOffset": 576096
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Force background judgement",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "8B4140",
+        "dataEnabled": "31C040",
+        "dataOffset": 576080
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Force darkest background",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "750333C0",
+        "dataEnabled": "33C0B003",
+        "dataOffset": 578875
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Unlock all songs",
+    "description": "Unlocks all e-amusement songs, event mode songs, ACES FOR ACES and ENDYMION",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "32C0",
+        "dataEnabled": "B001",
+        "dataOffset": 585091
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 542267
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "32C0",
+        "dataEnabled": "B001",
+        "dataOffset": 542417
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Tutorial Skip",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 284420
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Timer Freeze",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 149095
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Unlock options",
+    "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 501410
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Force Extra Stage/Extra Encore Stage (fixed)",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 371831
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 372178
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Enable DDR SELECTION",
+    "description": "Even works in offline/local mode!",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "E8C77101",
+        "dataEnabled": "B8010000",
+        "dataOffset": 481140
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2018102200,
+    "name": "Premium Free",
+    "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "00",
+        "dataOffset": 127142
+      }
+    ]
+  }
+]

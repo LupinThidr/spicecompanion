@@ -1,0 +1,46 @@
+[
+  {
+    "gameCode": "PIX",
+    "dateCode": 2017062800,
+    "name": "Infinite Final Layer",
+    "description": "Locks the game to the final track for infinite play.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "museca.dll",
+        "dataDisabled": "FF8348140000",
+        "dataEnabled": "909090909090",
+        "dataOffset": 1567047
+      },
+      {
+        "dllName": "museca.dll",
+        "dataDisabled": "7F08",
+        "dataEnabled": "9090",
+        "dataOffset": 1566879
+      },
+      {
+        "dllName": "museca.dll",
+        "dataDisabled": "8B8148140000",
+        "dataEnabled": "B80300000090",
+        "dataOffset": 1565728
+      }
+    ]
+  },
+  {
+    "gameCode": "PIX",
+    "dateCode": 2017062800,
+    "name": "Auto Event Mode Toggled",
+    "description": "Freeplay (Coin Options) must be \"ON\" for this to work efficiently",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "museca.dll",
+        "dataDisabled": "8901884110C7411401000000C3CCCCCCCC",
+        "dataEnabled": "C70101000000884110C7411401000000C3",
+        "dataOffset": 1665969
+      }
+    ]
+  }
+]

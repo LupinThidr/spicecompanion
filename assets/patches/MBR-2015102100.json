@@ -1,0 +1,4936 @@
+[
+  {
+    "gameCode": "MBR",
+    "dateCode": 2015102100,
+    "name": "E: drive fix",
+    "description": "Fix crash caused by no E: drive",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "653A2F",
+        "dataEnabled": "646576",
+        "dataOffset": 3030008
+      }
+    ]
+  },
+  {
+    "gameCode": "MBR",
+    "dateCode": 2015102100,
+    "name": "All songs unlocked",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2181952
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2182476
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2183000
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2183524
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2184048
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2184572
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2185620
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2186668
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2187192
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2187716
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2188240
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2188764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2189288
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2189812
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2190860
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2191384
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2191908
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2192432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2193480
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2194004
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2194528
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2195052
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2195112
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2195576
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2195636
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2196160
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2196456
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2197148
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2197208
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2197672
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2197732
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2198256
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2198720
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2198780
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2199244
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2199304
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2199768
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2200292
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2200352
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2200816
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2200876
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2201176
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2201400
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2201864
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2202388
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2202448
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2202912
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2203436
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2203496
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2203960
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2204484
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2205008
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2205068
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2205532
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2206056
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2206116
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2206580
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2206640
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2207104
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2207164
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2207628
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2207688
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2208152
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2208212
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2208676
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2208736
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2209200
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2209260
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2209724
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2223348
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2223872
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2224396
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2224920
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2225444
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2225968
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2226492
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2227016
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2227540
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2228064
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2228588
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2228948
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2229112
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2229636
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2230160
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2230684
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2231208
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2231732
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2232256
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2232780
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2233828
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2234876
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2235400
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2236448
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2236972
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2237496
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2238020
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2238544
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2239068
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2239424
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2239592
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2239652
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2240116
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2240176
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2240700
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2241224
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2241688
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2241748
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2242212
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2242272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2242736
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2242796
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2243260
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2243320
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2243784
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2243844
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2244144
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2244308
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2244368
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2244832
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "06000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2244892
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2245356
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2245416
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2245880
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2245940
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2246464
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2246928
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2246988
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2247452
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2247512
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2247976
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2248036
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2248500
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2249024
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2249084
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2249548
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0400000000000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2249608
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2250072
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2250132
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2250596
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2250656
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2251120
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2251180
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2251644
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2251704
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2252168
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2252228
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2252692
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2253216
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2253276
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2253740
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2253800
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2254264
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2254324
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2254788
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2254848
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2255312
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2255372
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2255836
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2255896
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2256360
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2256420
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2256884
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2256944
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2257408
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "06000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2257468
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2257932
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2257992
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0200000000000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2258288
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2258456
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2258516
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2258980
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2259040
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2259504
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2259564
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2259860
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2260028
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2260088
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2260552
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2260612
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2261076
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2261136
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2261600
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2261660
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2262124
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2262184
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2262648
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2262708
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2263172
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2273652
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2274176
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2274700
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2274760
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2275224
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2275748
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2276272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2276796
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2277320
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2277844
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2278368
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2278892
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2279248
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2279416
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2279940
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2280464
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2280988
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2281512
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2281572
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2282036
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2282560
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2283084
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2283608
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2284132
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2284656
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2285180
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2285240
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2285704
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2285764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2286228
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2286288
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2286752
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2286812
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2287276
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2287336
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2287800
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2287860
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2288160
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2288324
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2288384
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2288848
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2288908
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2289372
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2289432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2289896
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2289956
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2290420
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0400000000000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2290480
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2290944
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2291004
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2291468
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2291992
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2292516
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2292576
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2293040
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2293564
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2293624
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2294088
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0000000004000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2294148
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2294612
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2294672
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2295136
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0300000004000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2295196
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2295660
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2301948
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2302472
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2302996
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2303520
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2304044
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2304568
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2305092
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2305616
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2306140
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2306664
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2307188
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2307712
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2308236
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2308760
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2309284
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2309808
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2310332
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2310856
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2311380
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2311904
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2312428
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2312952
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2313476
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2314000
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2314524
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2315048
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2315572
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2316096
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2316620
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2317144
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2317668
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2317728
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2318192
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2318252
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2318716
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2318776
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2319240
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2319300
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2319764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2319824
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2320288
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2320348
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2320812
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2320872
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2321336
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2321396
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2321860
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2321920
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2322384
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2322444
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2322908
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2322968
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2323432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2323492
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2323956
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2324016
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2324480
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2324540
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2325004
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "06000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2325064
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2325528
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2326052
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2326112
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2326452
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2326484
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2326576
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2326636
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2326976
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2327008
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2327100
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2327160
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2327532
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2327624
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2327684
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2328148
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2328208
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2328672
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2328732
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2329196
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2333388
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2333788
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2333820
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2333852
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2334792
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2334960
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2335484
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2336008
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2336532
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2337056
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2337580
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2338104
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2338628
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2339152
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2339676
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2340200
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2340724
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2341248
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2341772
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2342296
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2342820
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2343344
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2343404
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2343868
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2344392
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2344916
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2344976
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "06000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2345272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2345440
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2345500
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2345964
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2346024
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2346488
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2346548
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2347012
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2347072
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2347536
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2347596
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2347892
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2348060
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2348120
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0900000001000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2348416
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2348584
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2348644
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2349108
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2349168
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2349632
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2349692
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "07000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2349988
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2350156
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2350216
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2350680
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2350740
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2351204
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2351264
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2351728
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2351788
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2352252
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2352312
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2352776
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2352836
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2353176
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2353208
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2353240
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2353300
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2353360
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2353824
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2353884
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2354348
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2356968
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2357492
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2358016
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2358540
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2358940
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2358972
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2359064
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2359588
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2360112
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2360636
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2361160
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2361220
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2361684
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2362208
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2362732
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2363256
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0400000001000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2363316
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2363780
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2363840
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2364304
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2364364
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2364828
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2364888
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2365352
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2365412
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2365876
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2365936
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2366400
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "07000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2366460
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2366924
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2366984
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2367448
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2367508
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2367972
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2368032
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0A000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2368328
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2368496
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2368556
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2369020
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2369080
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2369544
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2369604
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2370068
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2370592
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2370652
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2371116
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2371640
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2372164
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "06000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2372224
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2372688
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2372748
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2373212
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2373272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2373736
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2374784
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2375308
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2375832
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2376356
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2376880
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2377404
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2377928
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2378452
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2378976
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2379500
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2380024
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F64756D6D79",
+        "dataEnabled": "000000000000",
+        "dataOffset": 2380096
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F64756D6D79",
+        "dataEnabled": "000000000000",
+        "dataOffset": 2380392
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F64756D6D79",
+        "dataEnabled": "000000000000",
+        "dataOffset": 2380424
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F64756D6D79",
+        "dataEnabled": "000000000000",
+        "dataOffset": 2380456
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F64756D6D79",
+        "dataEnabled": "000000000000",
+        "dataOffset": 2380488
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2381072
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2381596
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2382120
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2382644
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2383168
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2383692
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2384216
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2384740
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2385264
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2385324
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2385788
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2385848
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2386312
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2386372
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2386836
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2386896
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2387360
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2387420
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2387884
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0400000003000000",
+        "dataEnabled": "FFFFFFFFFFFFFFFF",
+        "dataOffset": 2387944
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2388408
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2388468
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2388932
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2388992
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2389456
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2389516
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2389980
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "07000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2390040
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2390504
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "06000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2390564
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2391028
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2391088
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2391552
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2392076
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2392136
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2392600
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2393124
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2393648
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2393708
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2394172
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2403604
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2404128
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2404652
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2405176
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2405576
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2405608
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2405700
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2406224
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2406748
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2406808
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2407272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2407796
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2408320
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2408844
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2409368
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2409892
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2410416
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2410940
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2411464
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2411988
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2412512
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2413036
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2413096
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2413560
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2414084
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2414484
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2414516
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2414608
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2414668
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2415132
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2415192
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2415656
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2416180
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2416240
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2416764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2417228
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2417288
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0D000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2417584
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2417752
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2417812
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2418276
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2418336
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2418800
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2418860
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2419324
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2419384
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2419848
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2419908
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2420372
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2420432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2427544
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0C000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2434876
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2435568
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2436092
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2437200
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2437664
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2438188
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2438248
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2438712
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2438772
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0B000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2439068
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2439236
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2439296
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2439760
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "05000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2439820
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2440284
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2440808
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2441332
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2441856
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2442380
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2442904
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2443428
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2443952
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2444476
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2445000
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2445060
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2445524
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2445584
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0E000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2445880
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2446048
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2446108
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2446572
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2450240
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2450764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2451288
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2451812
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2452336
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2452860
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2453384
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2453908
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2454432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2454956
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2455480
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "08000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2455540
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2456004
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2456528
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2457052
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2457576
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2460032
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2460720
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2460780
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2461244
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2461304
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2461768
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2461828
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2462292
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2462352
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2462816
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2463340
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2463864
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2464388
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2464912
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2465436
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2465960
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2466484
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2467008
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2467532
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2468056
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2468580
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2469104
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2469628
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2470028
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2470060
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2470152
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2470212
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2470676
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2470736
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2471200
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2471724
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2472772
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2475916
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2476440
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2476964
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2477488
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "0F000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2477844
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2478012
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2478536
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2479584
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2480632
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2481680
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2481740
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2482080
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2482112
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2482204
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2482728
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2482788
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2483252
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2483312
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2483776
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2484300
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2484360
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F33",
+        "dataEnabled": "0000",
+        "dataOffset": 2484764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2484824
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "20",
+        "dataOffset": 2484863
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2485408
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2485872
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2486396
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2486456
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2486920
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2486980
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2487444
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2487968
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2488028
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F33",
+        "dataEnabled": "0000",
+        "dataOffset": 2488432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2488492
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "20",
+        "dataOffset": 2488531
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2488552
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2489016
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2489076
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2489540
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2490064
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2490124
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2490588
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2491112
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2491172
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2491636
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2491696
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2492160
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2492220
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2492684
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2493208
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2493732
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2494256
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2494780
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2494840
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2495304
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2495364
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2495828
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2495888
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2496352
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2496412
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2496876
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2497400
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2497924
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2498448
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2498972
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2499896
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2499928
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2500020
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2500080
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2500420
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2500452
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2500544
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2500604
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2501068
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2501592
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "00000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2501652
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F33",
+        "dataEnabled": "0000",
+        "dataOffset": 2502056
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2502116
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "20",
+        "dataOffset": 2502155
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2502640
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2503164
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2503688
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2504212
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2504736
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2505260
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2505784
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2506308
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2506832
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2507356
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2507880
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2507940
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2508404
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "03000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2508464
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2508928
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2509452
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2509976
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2510376
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2510408
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2510500
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2511024
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2511548
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2512072
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2512596
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2513120
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2513644
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2514168
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2514692
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2515216
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2515740
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2516264
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2516664
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2516696
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2516788
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2517312
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2517836
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2518360
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2518884
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2519408
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2519932
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2520456
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2520856
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2520888
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F33",
+        "dataEnabled": "0000",
+        "dataOffset": 2520920
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2520980
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "6D6873",
+        "dataEnabled": "202020",
+        "dataOffset": 2521017
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2521504
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2522028
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2522552
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2523076
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "10000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2523432
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2523600
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F33",
+        "dataEnabled": "0000",
+        "dataOffset": 2524064
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2524124
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "20",
+        "dataOffset": 2524163
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2524524
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2524556
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2524648
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2525048
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2525080
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2525172
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2525696
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2526128
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2526220
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "68",
+        "dataEnabled": "20",
+        "dataOffset": 2526258
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "04000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2526580
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2526744
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "11000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2527100
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2527268
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2527792
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2528316
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2528840
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2529272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2529364
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F31",
+        "dataEnabled": "0000",
+        "dataOffset": 2529764
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "5F32",
+        "dataEnabled": "0000",
+        "dataOffset": 2529796
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2529888
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2530412
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2530936
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2531460
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "12000000",
+        "dataEnabled": "FFFFFFFF",
+        "dataOffset": 2531816
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2531984
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2532508
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2533032
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2533556
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2534080
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2534604
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2535128
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2535652
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2536176
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2537224
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2537748
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2538272
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2538796
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2539320
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2539844
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "03",
+        "dataOffset": 2540368
+      },
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "03",
+        "dataOffset": 2540892
+      }
+    ]
+  }
+]

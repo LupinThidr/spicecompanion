@@ -1,0 +1,78 @@
+[
+  {
+    "gameCode": "M32",
+    "dateCode": 2017080200,
+    "name": "Timer Freeze",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "0F85AA010000",
+        "dataEnabled": "E9AB01000090",
+        "dataOffset": 48183
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2017080200,
+    "name": "Stage Freeze",
+    "description": "NOT COMPATIBLE FOR USE ON NETWORKS",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "0F85FB010000",
+        "dataEnabled": "E9FC01000090",
+        "dataOffset": 1362321
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2017080200,
+    "name": "Unlock all songs",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "5B00",
+        "dataEnabled": "4D01",
+        "dataOffset": 1941738
+      },
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "5D00",
+        "dataEnabled": "4D01",
+        "dataOffset": 1941762
+      },
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "7516",
+        "dataEnabled": "EB23",
+        "dataOffset": 1394996
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2017080200,
+    "name": "Enable Long Music",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "7503",
+        "dataEnabled": "9090",
+        "dataOffset": 1395316
+      }
+    ]
+  }
+]

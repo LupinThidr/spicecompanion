@@ -1,0 +1,220 @@
+[
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Force Enable Fast/Slow",
+    "description": "Forces fast/slow notifications on, ideal for guests",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "8B4144",
+        "dataEnabled": "31C040",
+        "dataOffset": 658752
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Force Background Judgement",
+    "description": "Forces background judgment on, ideal for guests",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "8B41",
+        "dataEnabled": "31C0",
+        "dataOffset": 658736
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Force Darkest Background",
+    "description": "Forces the dark background on, ideal for guests",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "750333C0",
+        "dataEnabled": "33C0B003",
+        "dataOffset": 662254
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Song Unlock",
+    "description": "Unlocks all event mode songs.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75085F32C0",
+        "dataEnabled": "90905FB001",
+        "dataOffset": 611014
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 616867
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "65",
+        "dataEnabled": "62",
+        "dataOffset": 1895460
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "72",
+        "dataEnabled": "62",
+        "dataOffset": 1895468
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "6C",
+        "dataEnabled": "62",
+        "dataOffset": 1895476
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "6C",
+        "dataEnabled": "62",
+        "dataOffset": 1895488
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Tutorial Skip",
+    "description": "Skips the in-game tutorial",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 306483
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Timer Freeze",
+    "description": "Freezes the in-game timer",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 165189
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Unlock Options",
+    "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 568563
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Force Cabinet Type 6",
+    "description": "Causes the game to load a different theme, certain assets (like menu background) may not work with this forced on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "FF24",
+        "dataEnabled": "EB71",
+        "dataOffset": 57624
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Enable DDR SELECTION",
+    "description": "Also works in offline/local mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "E8A7AA01",
+        "dataEnabled": "B8010000",
+        "dataOffset": 545556
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Premium Free",
+    "description": "Infinite songs, saves scores but not profile information",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "00",
+        "dataOffset": 128904
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2020020300,
+    "name": "Mute announcer",
+    "description": "Also mutes crowd cheering and booing during gameplay",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "0F84",
+        "dataEnabled": "90E9",
+        "dataOffset": 177816
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "76",
+        "dataEnabled": "62",
+        "dataOffset": 1840883
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "76",
+        "dataEnabled": "62",
+        "dataOffset": 1840911
+      }
+    ]
+  }
+]

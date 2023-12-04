@@ -1,0 +1,132 @@
+[
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "Song/EX unlock",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "F6D81AC02402",
+        "dataEnabled": "B00290909090",
+        "dataOffset": 365832
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 366012
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "0100BE05000000000100BF05000000000100C005000000000200A705000000000200AA05000000000200AE05000000000200B105000000000300C505000000000300C305000000000300CB05000000000400C105000000000500C805000000000500C705000000000500C905000000000600D605000000000600D705000000000700D205000000000700D305080000000100D805000000000800D105080000000200C205000000000900DE05000000000900DF05000000000900E005000000000900E105000000000900E205000000000900E305000000000A00D405000000000B00E405000000000B00E505000000000B00E605000000000B00E705000000000C00EE05000000000D00FA05080000000300FB05000000000E000706000000000F0008060000000010000C06",
+        "dataEnabled": "000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000",
+        "dataOffset": 1865308
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "Remove Timer",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 837686
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "Unlock Classic 8 EX as a 49",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "05",
+        "dataEnabled": "07",
+        "dataOffset": 3079815
+      },
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "31",
+        "dataOffset": 3079829
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "E: drive fix",
+    "description": "Fix crash caused by no E: drive",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "653A2F",
+        "dataEnabled": "646576",
+        "dataOffset": 2761428
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "HDMI audio fix",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "85C07596",
+        "dataEnabled": "90909090",
+        "dataOffset": 1147180
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "Prevent Windows volume change on boot",
+    "description": "If your volume gets forced to max, turn this on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "83",
+        "dataEnabled": "C3",
+        "dataOffset": 1157728
+      }
+    ]
+  },
+  {
+    "gameCode": "M39",
+    "dateCode": 2016120400,
+    "name": "Boot to event mode",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "popn22.dll",
+        "dataDisabled": "8B00C3CC",
+        "dataEnabled": "31C040C3",
+        "dataOffset": 986416
+      }
+    ]
+  }
+]

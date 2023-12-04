@@ -1,0 +1,18 @@
+[
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013030500,
+    "name": "Premium Free (1 Player Mode)",
+    "description": "Enables the PREMIUM FREE mode for single-player",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 321228
+      }
+    ]
+  }
+]

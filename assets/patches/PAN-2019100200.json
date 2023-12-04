@@ -1,0 +1,99 @@
+[
+  {
+    "gameCode": "PAN",
+    "dateCodeMin": 2019112700,
+    "dateCodeMax": 2019112700,
+    "name": "Menu Timer Freeze",
+    "description": "Freeze the timer while in menus",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "41FFC8",
+        "dataEnabled": "909090",
+        "dataOffset": 3161395
+      }
+    ]
+  },
+  {
+    "gameCode": "PAN",
+    "dateCodeMin": 2019112700,
+    "dateCodeMax": 2019112700,
+    "name": "Shorter Monitor Check",
+    "description": "Shortens the length of the monitor check. Similar to Rootage, recommended only if you have a stable framerate",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "1E",
+        "dataEnabled": "00",
+        "dataOffset": 2205434
+      }
+    ]
+  },
+  {
+    "gameCode": "PAN",
+    "dateCodeMin": 2019112700,
+    "dateCodeMax": 2019112700,
+    "name": "Hide EXTRA PASELI Display",
+    "description": "Hides the extra paseli display at the bottom",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "CA2F2A",
+        "dataEnabled": "047226",
+        "dataOffset": 3177426
+      },
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "7E2F2A",
+        "dataEnabled": "E87126",
+        "dataOffset": 3177454
+      }
+    ]
+  },
+  {
+    "gameCode": "PAN",
+    "dateCodeMin": 2019112700,
+    "dateCodeMax": 2019112700,
+    "name": "Hide PASELI Display",
+    "description": "Hides the paseli display at the bottom",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "FF1514420900",
+        "dataEnabled": "E9AD01000090",
+        "dataOffset": 3177070
+      }
+    ]
+  },
+  {
+    "gameCode": "PAN",
+    "dateCodeMin": 2019112700,
+    "dateCodeMax": 2019112700,
+    "name": "Hide Credit Display",
+    "description": "Hides the credit display at the bottom",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "BB2B2A",
+        "dataEnabled": "A56F26",
+        "dataOffset": 3178033
+      },
+      {
+        "dllName": "nostalgia.dll",
+        "dataDisabled": "7F2B2A",
+        "dataEnabled": "896F26",
+        "dataOffset": 3178061
+      }
+    ]
+  }
+]

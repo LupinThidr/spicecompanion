@@ -1,0 +1,18 @@
+[
+  {
+    "gameCode": "PIX",
+    "dateCode": 2016071300,
+    "name": "Infinite First Layer",
+    "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "museca.dll",
+        "dataDisabled": "FF838C090000",
+        "dataEnabled": "909090909090",
+        "dataOffset": 2613447
+      }
+    ]
+  }
+]

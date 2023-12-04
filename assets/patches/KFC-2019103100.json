@@ -1,0 +1,190 @@
+[
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "SSE4.2 Fix",
+    "description": "This will allow the game to run on processors which do not support the SSE4.2 instruction set. If you can successfully boot the game, do NOT check this.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "F3450FB8C8",
+        "dataEnabled": "67458D48FF",
+        "dataOffset": 2538445
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "F3450FB8CA",
+        "dataEnabled": "448D4E0490",
+        "dataOffset": 2649302
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "All songs/difficulties unlocked",
+    "description": "Bypasses unlocks on all songs and difficulties",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B4C2434E8F2090000",
+        "dataEnabled": "B80300000090909090",
+        "dataOffset": 5375221
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "E8998E0800",
+        "dataEnabled": "B80D000000",
+        "dataOffset": 5942274
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "All songs \"Safe\"",
+    "description": "Failing early won't drop you out of your session",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "32C0",
+        "dataEnabled": "B001",
+        "dataOffset": 6488384
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "No \"Safe\" banner on jackets",
+    "description": "Remove visual clutter",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "73",
+        "dataEnabled": "00",
+        "dataOffset": 7529824
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "Boot into Event Mode",
+    "description": "Starts the game in EVENT MODE",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "33C0C7410864050000488901C3CCCCCCCC",
+        "dataEnabled": "31C0678D4001C7410864050000488901C3",
+        "dataOffset": 5307632
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "PFree (Unlimited plays)",
+    "description": "Song clears/scores only, mission progress and custom settings do not save",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "486381A8120000488BF2488BF983F8040F8D01020000",
+        "dataEnabled": "48C7C001000000488981A81200004889D64889CF9090",
+        "dataOffset": 5467482
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "Allow ARS (Alternative Rate System) Option",
+    "description": "At gauge select, go to excessive and press BT-D to enable",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "85C97408",
+        "dataEnabled": "B1017508",
+        "dataOffset": 6476109
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "Freeze timer in all modes",
+    "description": "Useful to play with Omega Dimension Ex-Track",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8B83A000000085C07408",
+        "dataEnabled": "90909090909090909090",
+        "dataOffset": 4555044
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "Unlock all Nemsys Crew",
+    "description": "Unlocks all the Nesys Crew characters",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "95",
+        "dataEnabled": "91",
+        "dataOffset": 5396859
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "Non-Effective Rate gauges start at 0%",
+    "description": "This affects all \"Hard\" Gauge types",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "1027",
+        "dataEnabled": "0100",
+        "dataOffset": 5746446
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2019103100,
+    "name": "Non-Effective Rate gauges do not recover",
+    "description": "This affects all \"Hard\" Gauge types",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "41014168",
+        "dataEnabled": "90909090",
+        "dataOffset": 5749171
+      }
+    ]
+  }
+]

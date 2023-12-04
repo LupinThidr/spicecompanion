@@ -1,0 +1,234 @@
+[
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Force Enable Fast/Slow",
+    "description": "Forces fast/slow notifications on, ideal for guests",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "8B4144",
+        "dataEnabled": "31C040",
+        "dataOffset": 621664
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Force Background Judgement",
+    "description": "Forces background judgment on, ideal for guests",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "8B41",
+        "dataEnabled": "31C0",
+        "dataOffset": 621648
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Force Darkest Background",
+    "description": "Forces the dark background on, ideal for guests",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "750333C0",
+        "dataEnabled": "33C0B003",
+        "dataOffset": 625166
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Song Unlock (Incomplete)",
+    "description": "Unlocks all event mode songs, ACES FOR ACES, ENDYMION, A20. Still requires a musicdb edit to remove all restrictions.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "45F4",
+        "dataEnabled": "90E9",
+        "dataOffset": 542417
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "32C0",
+        "dataEnabled": "B001",
+        "dataOffset": 577543
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Tutorial Skip",
+    "description": "Skips the in-game tutorial",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 302387
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Timer Freeze",
+    "description": "Freezes the in-game timer",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 161239
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Unlock Options",
+    "description": "Unlocks e-amusement exclusive options such as ARROW COLOR",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 534323
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Force Extra Stage/Extra Encore Stage (fixed)",
+    "description": "Forces EXTRA STAGE/EXTRA ENCORE STAGE on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 346171
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 346560
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Opaque background for darkest background option",
+    "description": "This makes the background for the darkest background option be 99% opaque, hiding the background dancers and videos",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "333333",
+        "dataEnabled": "A4707D",
+        "dataOffset": 1875820
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Force Cabinet Type 6",
+    "description": "Causes the game to load a different theme, certain assets (like menu background) may not work with this forced on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "FF24",
+        "dataEnabled": "EB71",
+        "dataOffset": 56856
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Force ENDYMION Menu Background",
+    "description": "Forces the game to use the red cloud background instead of default",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "EC",
+        "dataEnabled": "F0",
+        "dataOffset": 129421
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Skip A20 Menu Background Loading",
+    "description": "Skips the check for the golden menu background entirely, causing the game to load the default",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 129348
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2019042200,
+    "name": "Enable cabinet lights for Cabinet Type 6",
+    "description": "This enables the use of cabinet lighting for Cabinet Type 6",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "E81A21",
+        "dataEnabled": "B80000",
+        "dataOffset": 48337
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "E86112FEFF",
+        "dataEnabled": "B800000000",
+        "dataOffset": 183178
+      },
+      {
+        "dllName": "gamemdx.dll",
+        "dataDisabled": "E83D0DFEFF",
+        "dataEnabled": "B800000000",
+        "dataOffset": 184494
+      }
+    ]
+  }
+]
