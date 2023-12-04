@@ -1,0 +1,196 @@
+[
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Disable power change",
+    "description": "Prevents power mode change on startup",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 2042355
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Disable monitor change",
+    "description": "Prevents monitor setting changes on startup",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 2042507
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Force BIO2 (KFC) IO in Valkyrie mode",
+    "description": "Will only work with <spec __type=\\\"str\\\">F</spec> changed to either G or H, in ea3-config.xml",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "8705",
+        "dataEnabled": "470C",
+        "dataOffset": 4187525
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Choppy Notes Fix (Unstable)",
+    "description": "Fixes issues with choppy notes which may occur at 120Hz. Only enable if you experience this issue!.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "4E",
+        "dataEnabled": "5E",
+        "dataOffset": 7409254
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Shared mode WASAPI",
+    "description": "Replaces the first audio device init attempt, do NOT check this if your audio is fine",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "04",
+        "dataEnabled": "00",
+        "dataOffset": 4431913
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Shared mode WASAPI Valkyrie",
+    "description": "Replaces the first audio device init attempt, do NOT check this if your audio is fine",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "07",
+        "dataEnabled": "00",
+        "dataOffset": 4431751
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "All songs/difficulties unlocked",
+    "description": "Bypasses unlocks on all songs and difficulties",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "EB0533C9894F1485DB742683EB01740F83EB01741C83EB01741083FB0174048BC1EB13B802000000EB0CB803000000EB05B801000000",
+        "dataEnabled": "909033C9B803000000909090909090909090909090909090909090909090909090909090909090909090909090909090909090909090",
+        "dataOffset": 1532302
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "440FB6742440",
+        "dataEnabled": "41BE03000000",
+        "dataOffset": 1471281
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Always show jackets",
+    "description": "Useful for K region",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "61",
+        "dataEnabled": "75",
+        "dataOffset": 6922816
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Freeze Timer",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "84",
+        "dataEnabled": "85",
+        "dataOffset": 475238
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Premium Timer Freeze",
+    "description": "Freezes the timer in Premium Time mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 3137128
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0F84",
+        "dataEnabled": "90E9",
+        "dataOffset": 2638393
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 1911966
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021112400,
+    "name": "Premium Time Length 30 Minutes",
+    "description": "Extends the timer to 30 minutes in premium mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0070C9B28B000000",
+        "dataEnabled": "00505C18A3010000",
+        "dataOffset": 2766822
+      }
+    ]
+  }
+]

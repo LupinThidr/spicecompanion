@@ -287,7 +287,7 @@ class ServerEditView extends StatefulWidget {
 
 class _ServerEditViewState extends State<ServerEditView> {
   final GlobalKey<FormState> _formState = GlobalKey<FormState>();
-  bool _autoValidateFields = false;
+  AutovalidateMode _autoValidateFields = AutovalidateMode.disabled;
   ServerInfo _data;
 
   @override
@@ -327,7 +327,7 @@ class _ServerEditViewState extends State<ServerEditView> {
                   ),
                   onSaved: (String s) => _data.name = s,
                   validator: validateBasic,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -342,7 +342,7 @@ class _ServerEditViewState extends State<ServerEditView> {
                   keyboardType: TextInputType.url,
                   onSaved: (String s) => _data.address = s,
                   validator: validateBasic,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -363,7 +363,7 @@ class _ServerEditViewState extends State<ServerEditView> {
                       return 'Must be a valid integer!';
                     return null;
                   },
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -378,7 +378,7 @@ class _ServerEditViewState extends State<ServerEditView> {
                   obscureText: true,
                   onSaved: (String s) => _data.pass = s,
                   validator: null,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
             ],
@@ -404,7 +404,7 @@ class _ServerEditViewState extends State<ServerEditView> {
                   // upon trying to add/resave invalid data,
                   // it'll be validated every time the fields change
                   // until you save it.
-                  _autoValidateFields = true;
+                  _autoValidateFields = AutovalidateMode.always;
                 });
               }
             },

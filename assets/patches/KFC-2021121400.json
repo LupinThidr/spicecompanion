@@ -1,0 +1,202 @@
+[
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Disable monitor change",
+    "description": "Prevents monitor setting changes on startup",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 2048155
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Shared Mode WASAPI",
+    "description": "Replaces the first audio device init attempt, do NOT check this if your audio is fine",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "04",
+        "dataEnabled": "00",
+        "dataOffset": 4441065
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Shared Mode WASAPI Valkyrie",
+    "description": "Replaces the first audio device init attempt, do NOT check this if your audio is fine",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "07",
+        "dataEnabled": "00",
+        "dataOffset": 4440903
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Choppy Notes Fix (Unstable)",
+    "description": "Fixes issues with choppy notes which may occur at 120Hz. Only enable if you experience this issue!.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "4E",
+        "dataEnabled": "5E",
+        "dataOffset": 7422286
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Freeze Timer",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "84",
+        "dataEnabled": "85",
+        "dataOffset": 475350
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Premium Timer Freeze",
+    "description": "Freezes the timer in Premium Time mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0F85",
+        "dataEnabled": "90E9",
+        "dataOffset": 3143813
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0F84",
+        "dataEnabled": "90E9",
+        "dataOffset": 2644841
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 1914430
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Premium Time Length 30 Minutes",
+    "description": "Extends the timer to 30 minutes in premium mode",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "0070C9B28B000000",
+        "dataEnabled": "00505C18A3010000",
+        "dataOffset": 2773606
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Hide premium guide banner",
+    "description": "blpass_ef (rainbow outline on health gauge) is shown instead of pt_sousa_usr",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "634F49",
+        "dataEnabled": "1BF044",
+        "dataOffset": 2193817
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Valkyrie Mode BIO2 (KFC) IO",
+    "description": "Use KFC IO in UFC mode, will only work with <spec __type=\\\"str\\\">F</spec> changed to either G or H, in ea3-config.xml",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "480F45CA",
+        "dataEnabled": "90909090",
+        "dataOffset": 4195129
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Valkyrie Mode 60Hz",
+    "description": "Use with G spec in ea3-ident.xml and use Force BIO2 patch, useful for old cabs and 60Hz monitors",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "75",
+        "dataOffset": 2048194
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "75",
+        "dataOffset": 3963808
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "75",
+        "dataOffset": 3966154
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCode": 2021121400,
+    "name": "Valkyrie Mode Disable Subscreen",
+    "description": "Useful if you don't want your secondary screen to be blocked",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "83BDB800000002410F93C64488742451",
+        "dataEnabled": "41B60044887424519090909090909090",
+        "dataOffset": 3962512
+      }
+    ]
+  }
+]

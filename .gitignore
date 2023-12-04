@@ -75,3 +75,6 @@ lib/generated_plugin_registrant.dart
 
 # Distribution
 dist
+
+# Misc
+pax_global_header

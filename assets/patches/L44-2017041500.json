@@ -1,0 +1,34 @@
+[
+  {
+    "gameCode": "L44",
+    "dateCode": 2017041500,
+    "name": "Disable tutorial",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "754A536800",
+        "dataEnabled": "E990000000",
+        "dataOffset": 697442
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2017041500,
+    "name": "SELECT MUSIC timer lock",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 525008
+      }
+    ]
+  }
+]

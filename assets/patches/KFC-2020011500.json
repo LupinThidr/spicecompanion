@@ -49,6 +49,40 @@
     "gameCode": "KFC",
     "dateCodeMin": 2020011500,
     "dateCodeMax": 2020011500,
+    "name": "No \"Safe\" banner of jackets",
+    "description": "Remove visual clutter",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "07",
+        "dataEnabled": "45",
+        "dataOffset": 5242667
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020011500,
+    "dateCodeMax": 2020011500,
+    "name": "Hide premium guide banner",
+    "description": "Remove visual clutter during premium song",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 4598273
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020011500,
+    "dateCodeMax": 2020011500,
     "name": "Premium Free Timer Freeze",
     "description": "Freezes the timer in Premium Free mode",
     "type": "memory",

@@ -1,0 +1,18 @@
+[
+  {
+    "gameCode": "MBR",
+    "dateCode": 2018121100,
+    "name": "E: drive fix",
+    "description": "Fix crash caused by no E: drive",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "653A2F",
+        "dataEnabled": "646576",
+        "dataOffset": 3030008
+      }
+    ]
+  }
+]

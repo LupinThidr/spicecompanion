@@ -1,0 +1,34 @@
+[
+  {
+    "gameCode": "L44",
+    "dateCode": 2019062500,
+    "name": "SELECT MUSIC Timer Lock",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 684583
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2019062500,
+    "name": "Online Matching Skip",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "0F8D7201",
+        "dataEnabled": "E9730100",
+        "dataOffset": 769291
+      }
+    ]
+  }
+]

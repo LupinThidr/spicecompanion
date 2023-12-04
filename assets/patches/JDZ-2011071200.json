@@ -1,0 +1,66 @@
+[
+  {
+    "gameCode": "JDZ",
+    "dateCode": 2011071200,
+    "name": "Fix MDB Error",
+    "description": "Skips the music database error.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 167356
+      }
+    ]
+  },
+  {
+    "gameCode": "JDZ",
+    "dateCode": 2011071200,
+    "name": "Fix .1 Error",
+    "description": "Skips the .1 chart file error.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 167419
+      }
+    ]
+  },
+  {
+    "gameCode": "JDZ",
+    "dateCode": 2011071200,
+    "name": "Fix Course Data Error",
+    "description": "Skips the course data error.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 167485
+      }
+    ]
+  },
+  {
+    "gameCode": "JDZ",
+    "dateCode": 2011071200,
+    "name": "Shorter Monitor Check",
+    "description": "Shortens the painfully long monitor check at boot.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "300C",
+        "dataEnabled": "2C01",
+        "dataOffset": 318934
+      }
+    ]
+  }
+]

@@ -157,6 +157,23 @@
     "gameCode": "KFC",
     "dateCodeMin": 2020122200,
     "dateCodeMax": 2020122200,
+    "name": "Always show jackets",
+    "description": "Useful for K region",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "61",
+        "dataEnabled": "75",
+        "dataOffset": 7286688
+      }
+    ]
+  },
+  {
+    "gameCode": "KFC",
+    "dateCodeMin": 2020122200,
+    "dateCodeMax": 2020122200,
     "name": "SSE4.2 Fix",
     "description": "Allows the game to run on CPUs not supporting SSE4.2, if you can successfully boot the game, do NOT check this",
     "type": "memory",
@@ -173,6 +190,12 @@
         "dataDisabled": "F3450FB8CA",
         "dataEnabled": "448D4E0290",
         "dataOffset": 2650630
+      },
+      {
+        "dllName": "soundvoltex.dll",
+        "dataDisabled": "F30FB8C9F30FB8D0",
+        "dataEnabled": "678D0990678D50FF",
+        "dataOffset": 5749712
       }
     ]
   },

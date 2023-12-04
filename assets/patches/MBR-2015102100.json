@@ -18,6 +18,38 @@
   {
     "gameCode": "MBR",
     "dateCode": 2015102100,
+    "name": "Timer Freeze",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "7513",
+        "dataEnabled": "9090",
+        "dataOffset": 1556724
+      }
+    ]
+  },
+  {
+    "gameCode": "MBR",
+    "dateCode": 2015102100,
+    "name": "All difficulties unlocked",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "reflecbeat.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 709526
+      }
+    ]
+  },
+  {
+    "gameCode": "MBR",
+    "dateCode": 2015102100,
     "name": "All songs unlocked",
     "description": "",
     "type": "memory",

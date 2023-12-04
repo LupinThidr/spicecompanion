@@ -520,7 +520,7 @@ class PatchDownloadView extends StatefulWidget {
 class _PatchDownloadViewState extends State<PatchDownloadView> {
   final GlobalKey<FormState> _formState = GlobalKey<FormState>();
 
-  bool _autoValidateFields = false;
+  AutovalidateMode _autoValidateFields = AutovalidateMode.disabled;
   String _urlInput = "";
 
   @override
@@ -550,7 +550,7 @@ class _PatchDownloadViewState extends State<PatchDownloadView> {
                   ),
                   onSaved: (String s) => _urlInput = s,
                   validator: validateURL,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
             ],
@@ -641,7 +641,7 @@ class _PatchDownloadViewState extends State<PatchDownloadView> {
                   // upon trying to add/write invalid data,
                   // it'll be validated every time the fields change
                   // until you save it.
-                  _autoValidateFields = true;
+                  _autoValidateFields = AutovalidateMode.disabled;
                 });
               }
             },
@@ -672,7 +672,7 @@ class PatchAddCustomView extends StatefulWidget {
 
 class _PatchAddCustomViewState extends State<PatchAddCustomView> {
   final GlobalKey<FormState> _formState = GlobalKey<FormState>();
-  bool _autoValidateFields = false;
+  AutovalidateMode _autoValidateFields = AutovalidateMode.disabled;
   MemoryPatch _data;
 
   @override
@@ -725,7 +725,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                   ),
                   onSaved: (String s) => _data.name = s,
                   validator: validateBasic,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -739,7 +739,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                   ),
                   onSaved: (String s) => _data.description = s,
                   validator: null,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -753,7 +753,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                   ),
                   onSaved: (String s) => _data.gameCode = s,
                   validator: validateGameCode,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -772,7 +772,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                     _data.dateCodeMax = dateCode;
                   },
                   validator: validateNumber,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -786,7 +786,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                   ),
                   onSaved: (s) => _data.getPatches()[0].dllName = s,
                   validator: validateDLL,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -803,7 +803,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                         new RegExp(r"\s+\b|\b\s"), "");
                   },
                   validator: validateHex,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -820,7 +820,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                         new RegExp(r"\s+\b|\b\s"), "");
                   },
                   validator: validateHex,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -838,7 +838,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                     _data.getPatches()[0].dataOffset = parsed;
                   },
                   validator: validateNumber,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
             ],
@@ -864,7 +864,7 @@ class _PatchAddCustomViewState extends State<PatchAddCustomView> {
                   // upon trying to add/resave invalid data,
                   // it'll be validated every time the fields change
                   // until you save it.
-                  _autoValidateFields = true;
+                  _autoValidateFields = AutovalidateMode.always;
                 });
               }
             },

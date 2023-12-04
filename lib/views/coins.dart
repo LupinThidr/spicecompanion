@@ -18,7 +18,9 @@ class _CoinsViewState extends State<CoinsView> {
             title: Text("Insert Coin"),
             onTap: () {
               ConnectionPool.inst.get().then((con) {
-                coinInsert(con, 1);
+                coinInsert(con, 1).whenComplete(() {
+                  con.free();
+                });
               }, onError: (e) {});
             },
           ),
@@ -26,7 +28,9 @@ class _CoinsViewState extends State<CoinsView> {
             title: Text("Insert 5 Coins"),
             onTap: () {
               ConnectionPool.inst.get().then((con) {
-                coinInsert(con, 5);
+                coinInsert(con, 5).whenComplete(() {
+                  con.free();
+                });
               }, onError: (e) {});
             },
           ),
@@ -34,7 +38,9 @@ class _CoinsViewState extends State<CoinsView> {
             title: Text("Insert 10 Coins"),
             onTap: () {
               ConnectionPool.inst.get().then((con) {
-                coinInsert(con, 10);
+                coinInsert(con, 10).whenComplete(() {
+                  con.free();
+                });
               }, onError: (e) {});
             },
           ),

@@ -1,0 +1,82 @@
+[
+  {
+    "gameCode": "L44",
+    "dateCode": 2019090300,
+    "name": "Disable Tutorial",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "0F85D6010000",
+        "dataEnabled": "E9D701000090",
+        "dataOffset": 786503
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2019090300,
+    "name": "SELECT MUSIC Timer Lock",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 684775
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2019090300,
+    "name": "Skip CATEGORY SELECT",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "04",
+        "dataEnabled": "07",
+        "dataOffset": 685667
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2019090300,
+    "name": "Skip Online Matching",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "0F8D7201",
+        "dataEnabled": "E9730100",
+        "dataOffset": 769531
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2019090300,
+    "name": "Unlock all songs",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "music_db.dll",
+        "dataDisabled": "7414",
+        "dataEnabled": "9090",
+        "dataOffset": 9059
+      }
+    ]
+  }
+]

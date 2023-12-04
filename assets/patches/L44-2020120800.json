@@ -1,0 +1,66 @@
+[
+  {
+    "gameCode": "L44",
+    "dateCode": 2020120800,
+    "name": "Disable Tutorial",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "0F857F010000",
+        "dataEnabled": "E98001000090",
+        "dataOffset": 871391
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2020120800,
+    "name": "SELECT MUSIC Timer Lock",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 782962
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2020120800,
+    "name": "Skip CATEGORY SELECT",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "04",
+        "dataEnabled": "07",
+        "dataOffset": 783863
+      }
+    ]
+  },
+  {
+    "gameCode": "L44",
+    "dateCode": 2020120800,
+    "name": "Skip Online Matching",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "jubeat.dll",
+        "dataDisabled": "0F8D7201",
+        "dataEnabled": "E9730100",
+        "dataOffset": 855307
+      }
+    ]
+  }
+]

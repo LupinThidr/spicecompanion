@@ -1,0 +1,3400 @@
+[
+  {
+    "gameCode": "MDX",
+    "dateCode": 2015122100,
+    "name": "Premium Free",
+    "description": "Song clears/scores only. Profile progress and custom settings do not save. Reboot game to re-query for scores.",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FF80E4160000",
+        "dataEnabled": "909090909090",
+        "dataOffset": 9157
+      }
+    ]
+  },
+  {
+    "gameCode": "MDX",
+    "dateCode": 2015122100,
+    "name": "Unlock all songs",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "EB",
+        "dataEnabled": "00",
+        "dataOffset": 2120816
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F701",
+        "dataEnabled": "0000",
+        "dataOffset": 2120820
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F5",
+        "dataEnabled": "00",
+        "dataOffset": 2120824
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6001",
+        "dataEnabled": "0000",
+        "dataOffset": 2120828
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1301",
+        "dataEnabled": "0000",
+        "dataOffset": 2120832
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9501",
+        "dataEnabled": "0000",
+        "dataOffset": 2120836
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "02",
+        "dataEnabled": "00",
+        "dataOffset": 2120840
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120844
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "03",
+        "dataEnabled": "00",
+        "dataOffset": 2120848
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2802",
+        "dataEnabled": "0000",
+        "dataOffset": 2120852
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "04",
+        "dataEnabled": "00",
+        "dataOffset": 2120856
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2502",
+        "dataEnabled": "0000",
+        "dataOffset": 2120860
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "05",
+        "dataEnabled": "00",
+        "dataOffset": 2120864
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2902",
+        "dataEnabled": "0000",
+        "dataOffset": 2120868
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "06",
+        "dataEnabled": "00",
+        "dataOffset": 2120872
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2602",
+        "dataEnabled": "0000",
+        "dataOffset": 2120876
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "07",
+        "dataEnabled": "00",
+        "dataOffset": 2120880
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120884
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "08",
+        "dataEnabled": "00",
+        "dataOffset": 2120888
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2702",
+        "dataEnabled": "0000",
+        "dataOffset": 2120892
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "09",
+        "dataEnabled": "00",
+        "dataOffset": 2120896
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120900
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0A",
+        "dataEnabled": "00",
+        "dataOffset": 2120904
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120908
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0B",
+        "dataEnabled": "00",
+        "dataOffset": 2120912
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120916
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "45",
+        "dataEnabled": "00",
+        "dataOffset": 2120920
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3302",
+        "dataEnabled": "0000",
+        "dataOffset": 2120924
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3C",
+        "dataEnabled": "00",
+        "dataOffset": 2120928
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3402",
+        "dataEnabled": "0000",
+        "dataOffset": 2120932
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3D",
+        "dataEnabled": "00",
+        "dataOffset": 2120936
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3502",
+        "dataEnabled": "0000",
+        "dataOffset": 2120940
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3E",
+        "dataEnabled": "00",
+        "dataOffset": 2120944
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3602",
+        "dataEnabled": "0000",
+        "dataOffset": 2120948
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3F",
+        "dataEnabled": "00",
+        "dataOffset": 2120952
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3702",
+        "dataEnabled": "0000",
+        "dataOffset": 2120956
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "40",
+        "dataEnabled": "00",
+        "dataOffset": 2120960
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3802",
+        "dataEnabled": "0000",
+        "dataOffset": 2120964
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "41",
+        "dataEnabled": "00",
+        "dataOffset": 2120968
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3902",
+        "dataEnabled": "0000",
+        "dataOffset": 2120972
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "42",
+        "dataEnabled": "00",
+        "dataOffset": 2120976
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120980
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "43",
+        "dataEnabled": "00",
+        "dataOffset": 2120984
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120988
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "44",
+        "dataEnabled": "00",
+        "dataOffset": 2120992
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2120996
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "55",
+        "dataEnabled": "00",
+        "dataOffset": 2121000
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121004
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "56",
+        "dataEnabled": "00",
+        "dataOffset": 2121008
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121012
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "57",
+        "dataEnabled": "00",
+        "dataOffset": 2121016
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121020
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "58",
+        "dataEnabled": "00",
+        "dataOffset": 2121024
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121028
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "59",
+        "dataEnabled": "00",
+        "dataOffset": 2121032
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121036
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5A",
+        "dataEnabled": "00",
+        "dataOffset": 2121040
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121044
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5B",
+        "dataEnabled": "00",
+        "dataOffset": 2121048
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121052
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5C",
+        "dataEnabled": "00",
+        "dataOffset": 2121056
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121060
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5D",
+        "dataEnabled": "00",
+        "dataOffset": 2121064
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121068
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5E",
+        "dataEnabled": "00",
+        "dataOffset": 2121072
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121076
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5F",
+        "dataEnabled": "00",
+        "dataOffset": 2121080
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121084
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "60",
+        "dataEnabled": "00",
+        "dataOffset": 2121088
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121092
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "61",
+        "dataEnabled": "00",
+        "dataOffset": 2121096
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121100
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "16",
+        "dataEnabled": "00",
+        "dataOffset": 2121104
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121108
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "17",
+        "dataEnabled": "00",
+        "dataOffset": 2121112
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FF01",
+        "dataEnabled": "0000",
+        "dataOffset": 2121116
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "18",
+        "dataEnabled": "00",
+        "dataOffset": 2121120
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121124
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "19",
+        "dataEnabled": "00",
+        "dataOffset": 2121128
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121132
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1A",
+        "dataEnabled": "00",
+        "dataOffset": 2121136
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121140
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1B",
+        "dataEnabled": "00",
+        "dataOffset": 2121144
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121148
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1C",
+        "dataEnabled": "00",
+        "dataOffset": 2121152
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121156
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1D",
+        "dataEnabled": "00",
+        "dataOffset": 2121160
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121164
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1E",
+        "dataEnabled": "00",
+        "dataOffset": 2121168
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121172
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1F",
+        "dataEnabled": "00",
+        "dataOffset": 2121176
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121180
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7F",
+        "dataEnabled": "00",
+        "dataOffset": 2121184
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121188
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7E",
+        "dataEnabled": "00",
+        "dataOffset": 2121192
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121196
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "84",
+        "dataEnabled": "00",
+        "dataOffset": 2121200
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121204
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "85",
+        "dataEnabled": "00",
+        "dataOffset": 2121208
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121212
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "86",
+        "dataEnabled": "00",
+        "dataOffset": 2121216
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121220
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "87",
+        "dataEnabled": "00",
+        "dataOffset": 2121224
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121228
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "82",
+        "dataEnabled": "00",
+        "dataOffset": 2121232
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121236
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "83",
+        "dataEnabled": "00",
+        "dataOffset": 2121240
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121244
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "88",
+        "dataEnabled": "00",
+        "dataOffset": 2121248
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121252
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "89",
+        "dataEnabled": "00",
+        "dataOffset": 2121256
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121260
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8A",
+        "dataEnabled": "00",
+        "dataOffset": 2121264
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121268
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8B",
+        "dataEnabled": "00",
+        "dataOffset": 2121272
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121276
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8C",
+        "dataEnabled": "00",
+        "dataOffset": 2121280
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121284
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8D",
+        "dataEnabled": "00",
+        "dataOffset": 2121288
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121292
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8E",
+        "dataEnabled": "00",
+        "dataOffset": 2121296
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121300
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8F",
+        "dataEnabled": "00",
+        "dataOffset": 2121304
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121308
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "90",
+        "dataEnabled": "00",
+        "dataOffset": 2121312
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121316
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "91",
+        "dataEnabled": "00",
+        "dataOffset": 2121320
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6002",
+        "dataEnabled": "0000",
+        "dataOffset": 2121324
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "99",
+        "dataEnabled": "00",
+        "dataOffset": 2121328
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121332
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9A",
+        "dataEnabled": "00",
+        "dataOffset": 2121336
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121340
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9B",
+        "dataEnabled": "00",
+        "dataOffset": 2121344
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121348
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9C",
+        "dataEnabled": "00",
+        "dataOffset": 2121352
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121356
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9D",
+        "dataEnabled": "00",
+        "dataOffset": 2121360
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121364
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A0",
+        "dataEnabled": "00",
+        "dataOffset": 2121368
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121372
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A2",
+        "dataEnabled": "00",
+        "dataOffset": 2121376
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121380
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A3",
+        "dataEnabled": "00",
+        "dataOffset": 2121384
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121388
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A4",
+        "dataEnabled": "00",
+        "dataOffset": 2121392
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121396
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A5",
+        "dataEnabled": "00",
+        "dataOffset": 2121400
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121404
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A7",
+        "dataEnabled": "00",
+        "dataOffset": 2121408
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121412
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A8",
+        "dataEnabled": "00",
+        "dataOffset": 2121416
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121420
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A9",
+        "dataEnabled": "00",
+        "dataOffset": 2121424
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121428
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AA",
+        "dataEnabled": "00",
+        "dataOffset": 2121432
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121436
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AB",
+        "dataEnabled": "00",
+        "dataOffset": 2121440
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121444
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AC",
+        "dataEnabled": "00",
+        "dataOffset": 2121448
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121452
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AE",
+        "dataEnabled": "00",
+        "dataOffset": 2121456
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121460
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AF",
+        "dataEnabled": "00",
+        "dataOffset": 2121464
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121468
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B0",
+        "dataEnabled": "00",
+        "dataOffset": 2121472
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7002",
+        "dataEnabled": "0000",
+        "dataOffset": 2121476
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B1",
+        "dataEnabled": "00",
+        "dataOffset": 2121480
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121484
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B2",
+        "dataEnabled": "00",
+        "dataOffset": 2121488
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121492
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B4",
+        "dataEnabled": "00",
+        "dataOffset": 2121496
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121500
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B5",
+        "dataEnabled": "00",
+        "dataOffset": 2121504
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121508
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B6",
+        "dataEnabled": "00",
+        "dataOffset": 2121512
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121516
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B7",
+        "dataEnabled": "00",
+        "dataOffset": 2121520
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121524
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B8",
+        "dataEnabled": "00",
+        "dataOffset": 2121528
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121532
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B9",
+        "dataEnabled": "00",
+        "dataOffset": 2121536
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8002",
+        "dataEnabled": "0000",
+        "dataOffset": 2121540
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BE",
+        "dataEnabled": "00",
+        "dataOffset": 2121544
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121548
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BF",
+        "dataEnabled": "00",
+        "dataOffset": 2121552
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121556
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C0",
+        "dataEnabled": "00",
+        "dataOffset": 2121560
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121564
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C1",
+        "dataEnabled": "00",
+        "dataOffset": 2121568
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121572
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C2",
+        "dataEnabled": "00",
+        "dataOffset": 2121576
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121580
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C3",
+        "dataEnabled": "00",
+        "dataOffset": 2121584
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121588
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C4",
+        "dataEnabled": "00",
+        "dataOffset": 2121592
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121596
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C5",
+        "dataEnabled": "00",
+        "dataOffset": 2121600
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121604
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C7",
+        "dataEnabled": "00",
+        "dataOffset": 2121608
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121612
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C8",
+        "dataEnabled": "00",
+        "dataOffset": 2121616
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121620
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CA",
+        "dataEnabled": "00",
+        "dataOffset": 2121624
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121628
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CC",
+        "dataEnabled": "00",
+        "dataOffset": 2121632
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121636
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CD",
+        "dataEnabled": "00",
+        "dataOffset": 2121640
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9002",
+        "dataEnabled": "0000",
+        "dataOffset": 2121644
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CE",
+        "dataEnabled": "00",
+        "dataOffset": 2121648
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121652
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CF",
+        "dataEnabled": "00",
+        "dataOffset": 2121656
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121660
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D0",
+        "dataEnabled": "00",
+        "dataOffset": 2121664
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121668
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D1",
+        "dataEnabled": "00",
+        "dataOffset": 2121672
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121676
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D2",
+        "dataEnabled": "00",
+        "dataOffset": 2121680
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121684
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D3",
+        "dataEnabled": "00",
+        "dataOffset": 2121688
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121692
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D4",
+        "dataEnabled": "00",
+        "dataOffset": 2121696
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121700
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D7",
+        "dataEnabled": "00",
+        "dataOffset": 2121704
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121708
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D8",
+        "dataEnabled": "00",
+        "dataOffset": 2121712
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121716
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D9",
+        "dataEnabled": "00",
+        "dataOffset": 2121720
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121724
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DB",
+        "dataEnabled": "00",
+        "dataOffset": 2121728
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121732
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DC",
+        "dataEnabled": "00",
+        "dataOffset": 2121736
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121740
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DD",
+        "dataEnabled": "00",
+        "dataOffset": 2121744
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121748
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DE",
+        "dataEnabled": "00",
+        "dataOffset": 2121752
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121756
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DF",
+        "dataEnabled": "00",
+        "dataOffset": 2121760
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121764
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E0",
+        "dataEnabled": "00",
+        "dataOffset": 2121768
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121772
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E1",
+        "dataEnabled": "00",
+        "dataOffset": 2121776
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121780
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E2",
+        "dataEnabled": "00",
+        "dataOffset": 2121784
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121788
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E3",
+        "dataEnabled": "00",
+        "dataOffset": 2121792
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121796
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "ED",
+        "dataEnabled": "00",
+        "dataOffset": 2121800
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121804
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "EE",
+        "dataEnabled": "00",
+        "dataOffset": 2121808
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121812
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "EF",
+        "dataEnabled": "00",
+        "dataOffset": 2121816
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A002",
+        "dataEnabled": "0000",
+        "dataOffset": 2121820
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F0",
+        "dataEnabled": "00",
+        "dataOffset": 2121824
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121828
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F1",
+        "dataEnabled": "00",
+        "dataOffset": 2121832
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121836
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F2",
+        "dataEnabled": "00",
+        "dataOffset": 2121840
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121844
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F4",
+        "dataEnabled": "00",
+        "dataOffset": 2121848
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121852
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F7",
+        "dataEnabled": "00",
+        "dataOffset": 2121856
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121860
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "F9",
+        "dataEnabled": "00",
+        "dataOffset": 2121864
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121868
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FA",
+        "dataEnabled": "00",
+        "dataOffset": 2121872
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A702",
+        "dataEnabled": "0000",
+        "dataOffset": 2121876
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FB",
+        "dataEnabled": "00",
+        "dataOffset": 2121880
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A802",
+        "dataEnabled": "0000",
+        "dataOffset": 2121884
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FC",
+        "dataEnabled": "00",
+        "dataOffset": 2121888
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "A902",
+        "dataEnabled": "0000",
+        "dataOffset": 2121892
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FD",
+        "dataEnabled": "00",
+        "dataOffset": 2121896
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AA02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121900
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FE",
+        "dataEnabled": "00",
+        "dataOffset": 2121904
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AB02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121908
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FF",
+        "dataEnabled": "00",
+        "dataOffset": 2121912
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AC02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121916
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "00",
+        "dataOffset": 2121921
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AD02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121924
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0201",
+        "dataEnabled": "0000",
+        "dataOffset": 2121928
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AE02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121932
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0301",
+        "dataEnabled": "0000",
+        "dataOffset": 2121936
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "AF02",
+        "dataEnabled": "0000",
+        "dataOffset": 2121940
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0401",
+        "dataEnabled": "0000",
+        "dataOffset": 2121944
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B002",
+        "dataEnabled": "0000",
+        "dataOffset": 2121948
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0501",
+        "dataEnabled": "0000",
+        "dataOffset": 2121952
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B102",
+        "dataEnabled": "0000",
+        "dataOffset": 2121956
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0601",
+        "dataEnabled": "0000",
+        "dataOffset": 2121960
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B202",
+        "dataEnabled": "0000",
+        "dataOffset": 2121964
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0701",
+        "dataEnabled": "0000",
+        "dataOffset": 2121968
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B302",
+        "dataEnabled": "0000",
+        "dataOffset": 2121972
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0801",
+        "dataEnabled": "0000",
+        "dataOffset": 2121976
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B402",
+        "dataEnabled": "0000",
+        "dataOffset": 2121980
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0901",
+        "dataEnabled": "0000",
+        "dataOffset": 2121984
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B502",
+        "dataEnabled": "0000",
+        "dataOffset": 2121988
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1801",
+        "dataEnabled": "0000",
+        "dataOffset": 2121992
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B602",
+        "dataEnabled": "0000",
+        "dataOffset": 2121996
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1901",
+        "dataEnabled": "0000",
+        "dataOffset": 2122000
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122004
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1A01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122008
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122012
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1F01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122016
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122020
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2001",
+        "dataEnabled": "0000",
+        "dataOffset": 2122024
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BA02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122028
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2101",
+        "dataEnabled": "0000",
+        "dataOffset": 2122032
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BB02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122036
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2301",
+        "dataEnabled": "0000",
+        "dataOffset": 2122040
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BC02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122044
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2401",
+        "dataEnabled": "0000",
+        "dataOffset": 2122048
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BD02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122052
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2501",
+        "dataEnabled": "0000",
+        "dataOffset": 2122056
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BE02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122060
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2601",
+        "dataEnabled": "0000",
+        "dataOffset": 2122064
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BF02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122068
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2901",
+        "dataEnabled": "0000",
+        "dataOffset": 2122072
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C202",
+        "dataEnabled": "0000",
+        "dataOffset": 2122076
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2A01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122080
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C002",
+        "dataEnabled": "0000",
+        "dataOffset": 2122084
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2B01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122088
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122092
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2D01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122096
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122100
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3201",
+        "dataEnabled": "0000",
+        "dataOffset": 2122104
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122108
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3301",
+        "dataEnabled": "0000",
+        "dataOffset": 2122112
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122116
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3401",
+        "dataEnabled": "0000",
+        "dataOffset": 2122120
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122124
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3501",
+        "dataEnabled": "0000",
+        "dataOffset": 2122128
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C602",
+        "dataEnabled": "0000",
+        "dataOffset": 2122132
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3601",
+        "dataEnabled": "0000",
+        "dataOffset": 2122136
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122140
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3701",
+        "dataEnabled": "0000",
+        "dataOffset": 2122144
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6901",
+        "dataEnabled": "0000",
+        "dataOffset": 2122148
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3801",
+        "dataEnabled": "0000",
+        "dataOffset": 2122152
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5C01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122156
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3901",
+        "dataEnabled": "0000",
+        "dataOffset": 2122160
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7101",
+        "dataEnabled": "0000",
+        "dataOffset": 2122164
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3A01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122168
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "7001",
+        "dataEnabled": "0000",
+        "dataOffset": 2122172
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3B01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122176
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9601",
+        "dataEnabled": "0000",
+        "dataOffset": 2122180
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3C01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122184
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6701",
+        "dataEnabled": "0000",
+        "dataOffset": 2122188
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3D01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122192
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6801",
+        "dataEnabled": "0000",
+        "dataOffset": 2122196
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3E01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122200
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9A01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122204
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4001",
+        "dataEnabled": "0000",
+        "dataOffset": 2122208
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5D01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122212
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C9",
+        "dataEnabled": "00",
+        "dataOffset": 2122216
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122220
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4201",
+        "dataEnabled": "0000",
+        "dataOffset": 2122224
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CD02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122228
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4301",
+        "dataEnabled": "0000",
+        "dataOffset": 2122232
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CB02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122236
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4401",
+        "dataEnabled": "0000",
+        "dataOffset": 2122240
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CC02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122244
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4501",
+        "dataEnabled": "0000",
+        "dataOffset": 2122248
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CF02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122252
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4601",
+        "dataEnabled": "0000",
+        "dataOffset": 2122256
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CA02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122260
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4701",
+        "dataEnabled": "0000",
+        "dataOffset": 2122264
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "CE02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122268
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4D01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122272
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D002",
+        "dataEnabled": "0000",
+        "dataOffset": 2122276
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4E01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122280
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122284
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4F01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122288
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D202",
+        "dataEnabled": "0000",
+        "dataOffset": 2122292
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5101",
+        "dataEnabled": "0000",
+        "dataOffset": 2122296
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122300
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5201",
+        "dataEnabled": "0000",
+        "dataOffset": 2122304
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122308
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5401",
+        "dataEnabled": "0000",
+        "dataOffset": 2122312
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122316
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5701",
+        "dataEnabled": "0000",
+        "dataOffset": 2122320
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "78",
+        "dataEnabled": "00",
+        "dataOffset": 2122324
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5A01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122328
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D602",
+        "dataEnabled": "0000",
+        "dataOffset": 2122332
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5B01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122336
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122340
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5C01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122344
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122348
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5E01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122352
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122356
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5F01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122360
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DB02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122364
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6001",
+        "dataEnabled": "0000",
+        "dataOffset": 2122368
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DC02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122372
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5D01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122376
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "DA02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122380
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "16",
+        "dataEnabled": "00",
+        "dataOffset": 2122384
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122388
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "17",
+        "dataEnabled": "00",
+        "dataOffset": 2122392
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FF01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122396
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "18",
+        "dataEnabled": "00",
+        "dataOffset": 2122400
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122404
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "19",
+        "dataEnabled": "00",
+        "dataOffset": 2122408
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122412
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1A",
+        "dataEnabled": "00",
+        "dataOffset": 2122416
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122420
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1B",
+        "dataEnabled": "00",
+        "dataOffset": 2122424
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122428
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "45",
+        "dataEnabled": "00",
+        "dataOffset": 2122432
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122436
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "91",
+        "dataEnabled": "00",
+        "dataOffset": 2122440
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6002",
+        "dataEnabled": "0000",
+        "dataOffset": 2122444
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9B",
+        "dataEnabled": "00",
+        "dataOffset": 2122448
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122452
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9C",
+        "dataEnabled": "00",
+        "dataOffset": 2122456
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122460
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9D",
+        "dataEnabled": "00",
+        "dataOffset": 2122464
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122468
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1D",
+        "dataEnabled": "00",
+        "dataOffset": 2122472
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122476
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5801",
+        "dataEnabled": "0000",
+        "dataOffset": 2122480
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122484
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "00",
+        "dataOffset": 2122492
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0C",
+        "dataEnabled": "00",
+        "dataOffset": 2122496
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122500
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0D",
+        "dataEnabled": "00",
+        "dataOffset": 2122504
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122508
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0E",
+        "dataEnabled": "00",
+        "dataOffset": 2122512
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122516
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0F",
+        "dataEnabled": "00",
+        "dataOffset": 2122520
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122524
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "10",
+        "dataEnabled": "00",
+        "dataOffset": 2122528
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2602",
+        "dataEnabled": "0000",
+        "dataOffset": 2122532
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "11",
+        "dataEnabled": "00",
+        "dataOffset": 2122536
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122540
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "12",
+        "dataEnabled": "00",
+        "dataOffset": 2122544
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122548
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "13",
+        "dataEnabled": "00",
+        "dataOffset": 2122552
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122556
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "14",
+        "dataEnabled": "00",
+        "dataOffset": 2122560
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122564
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "15",
+        "dataEnabled": "00",
+        "dataOffset": 2122568
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122572
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "38",
+        "dataEnabled": "00",
+        "dataOffset": 2122576
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122580
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "39",
+        "dataEnabled": "00",
+        "dataOffset": 2122584
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3002",
+        "dataEnabled": "0000",
+        "dataOffset": 2122588
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3A",
+        "dataEnabled": "00",
+        "dataOffset": 2122592
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122596
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "46",
+        "dataEnabled": "00",
+        "dataOffset": 2122600
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122604
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2C",
+        "dataEnabled": "00",
+        "dataOffset": 2122608
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1202",
+        "dataEnabled": "0000",
+        "dataOffset": 2122612
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2D",
+        "dataEnabled": "00",
+        "dataOffset": 2122616
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122620
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2E",
+        "dataEnabled": "00",
+        "dataOffset": 2122624
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122628
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2F",
+        "dataEnabled": "00",
+        "dataOffset": 2122632
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1602",
+        "dataEnabled": "0000",
+        "dataOffset": 2122636
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "30",
+        "dataEnabled": "00",
+        "dataOffset": 2122640
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122644
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "31",
+        "dataEnabled": "00",
+        "dataOffset": 2122648
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122652
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4B",
+        "dataEnabled": "00",
+        "dataOffset": 2122656
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "FF01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122660
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "33",
+        "dataEnabled": "00",
+        "dataOffset": 2122664
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0C02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122668
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "32",
+        "dataEnabled": "00",
+        "dataOffset": 2122672
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122676
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "34",
+        "dataEnabled": "00",
+        "dataOffset": 2122680
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122684
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "35",
+        "dataEnabled": "00",
+        "dataOffset": 2122688
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122692
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6B",
+        "dataEnabled": "00",
+        "dataOffset": 2122696
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122700
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6A",
+        "dataEnabled": "00",
+        "dataOffset": 2122704
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4602",
+        "dataEnabled": "0000",
+        "dataOffset": 2122708
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6E",
+        "dataEnabled": "00",
+        "dataOffset": 2122712
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4702",
+        "dataEnabled": "0000",
+        "dataOffset": 2122716
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6C",
+        "dataEnabled": "00",
+        "dataOffset": 2122720
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122724
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "64",
+        "dataEnabled": "00",
+        "dataOffset": 2122728
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4B02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122732
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6F",
+        "dataEnabled": "00",
+        "dataOffset": 2122736
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122740
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "22",
+        "dataEnabled": "00",
+        "dataOffset": 2122744
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122748
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "24",
+        "dataEnabled": "00",
+        "dataOffset": 2122752
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122756
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "25",
+        "dataEnabled": "00",
+        "dataOffset": 2122760
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122764
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "26",
+        "dataEnabled": "00",
+        "dataOffset": 2122768
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0D02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122772
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "28",
+        "dataEnabled": "00",
+        "dataOffset": 2122776
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122780
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "29",
+        "dataEnabled": "00",
+        "dataOffset": 2122784
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1002",
+        "dataEnabled": "0000",
+        "dataOffset": 2122788
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2A",
+        "dataEnabled": "00",
+        "dataOffset": 2122792
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122796
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2B",
+        "dataEnabled": "00",
+        "dataOffset": 2122800
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122804
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "20",
+        "dataEnabled": "00",
+        "dataOffset": 2122808
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122812
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "21",
+        "dataEnabled": "00",
+        "dataOffset": 2122816
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122820
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "23",
+        "dataEnabled": "00",
+        "dataOffset": 2122824
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0802",
+        "dataEnabled": "0000",
+        "dataOffset": 2122828
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "27",
+        "dataEnabled": "00",
+        "dataOffset": 2122832
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "0E02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122836
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "80",
+        "dataEnabled": "00",
+        "dataOffset": 2122840
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122844
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "93",
+        "dataEnabled": "00",
+        "dataOffset": 2122848
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122852
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "92",
+        "dataEnabled": "00",
+        "dataOffset": 2122856
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6002",
+        "dataEnabled": "0000",
+        "dataOffset": 2122860
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9E",
+        "dataEnabled": "00",
+        "dataOffset": 2122864
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6A02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122868
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C6",
+        "dataEnabled": "00",
+        "dataOffset": 2122872
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "8502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122876
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D5",
+        "dataEnabled": "00",
+        "dataOffset": 2122880
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122884
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D6",
+        "dataEnabled": "00",
+        "dataOffset": 2122888
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "9402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122892
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E7",
+        "dataEnabled": "00",
+        "dataOffset": 2122896
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "09",
+        "dataEnabled": "00",
+        "dataOffset": 2122900
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E8",
+        "dataEnabled": "00",
+        "dataOffset": 2122904
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "78",
+        "dataEnabled": "00",
+        "dataOffset": 2122908
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "E9",
+        "dataEnabled": "00",
+        "dataOffset": 2122912
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2C01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122916
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "EA",
+        "dataEnabled": "00",
+        "dataOffset": 2122920
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "ED01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122924
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2701",
+        "dataEnabled": "0000",
+        "dataOffset": 2122928
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "BF02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122932
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4A01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122936
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B302",
+        "dataEnabled": "0000",
+        "dataOffset": 2122940
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4B01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122944
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B402",
+        "dataEnabled": "0000",
+        "dataOffset": 2122948
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4C01",
+        "dataEnabled": "0000",
+        "dataOffset": 2122952
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C902",
+        "dataEnabled": "0000",
+        "dataOffset": 2122956
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5001",
+        "dataEnabled": "0000",
+        "dataOffset": 2122960
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "D102",
+        "dataEnabled": "0000",
+        "dataOffset": 2122964
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5501",
+        "dataEnabled": "0000",
+        "dataOffset": 2122968
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "4F02",
+        "dataEnabled": "0000",
+        "dataOffset": 2122972
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5601",
+        "dataEnabled": "0000",
+        "dataOffset": 2122976
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3202",
+        "dataEnabled": "0000",
+        "dataOffset": 2122980
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5801",
+        "dataEnabled": "0000",
+        "dataOffset": 2122984
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "B502",
+        "dataEnabled": "0000",
+        "dataOffset": 2122988
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "48",
+        "dataEnabled": "00",
+        "dataOffset": 2122992
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "71",
+        "dataEnabled": "00",
+        "dataOffset": 2122996
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "49",
+        "dataEnabled": "00",
+        "dataOffset": 2123000
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "6C",
+        "dataEnabled": "00",
+        "dataOffset": 2123004
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "94",
+        "dataEnabled": "00",
+        "dataOffset": 2123008
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5502",
+        "dataEnabled": "0000",
+        "dataOffset": 2123012
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "98",
+        "dataEnabled": "00",
+        "dataOffset": 2123016
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2802",
+        "dataEnabled": "0000",
+        "dataOffset": 2123020
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1B01",
+        "dataEnabled": "0000",
+        "dataOffset": 2123024
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3202",
+        "dataEnabled": "0000",
+        "dataOffset": 2123028
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "1C01",
+        "dataEnabled": "0000",
+        "dataOffset": 2123032
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "5002",
+        "dataEnabled": "0000",
+        "dataOffset": 2123036
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2E01",
+        "dataEnabled": "0000",
+        "dataOffset": 2123040
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C202",
+        "dataEnabled": "0000",
+        "dataOffset": 2123044
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "2F01",
+        "dataEnabled": "0000",
+        "dataOffset": 2123048
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C002",
+        "dataEnabled": "0000",
+        "dataOffset": 2123052
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "3001",
+        "dataEnabled": "0000",
+        "dataOffset": 2123056
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "C302",
+        "dataEnabled": "0000",
+        "dataOffset": 2123060
+      },
+      {
+        "dllName": "mdxja.dll",
+        "dataDisabled": "01",
+        "dataEnabled": "00",
+        "dataOffset": 2123068
+      }
+    ]
+  }
+]

@@ -293,7 +293,7 @@ class CardEditView extends StatefulWidget {
 class _CardEditViewState extends State<CardEditView> {
   final GlobalKey<FormState> _formState = GlobalKey<FormState>();
 
-  bool _autoValidateFields = false;
+  AutovalidateMode _autoValidateFields = AutovalidateMode.disabled;
   CardInfo _data;
   StreamSubscription<String> cardSubscription;
   TextEditingController cardIDController = TextEditingController();
@@ -369,7 +369,7 @@ class _CardEditViewState extends State<CardEditView> {
                   ),
                   onSaved: (String s) => _data.name = s,
                   validator: validateBasic,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -384,7 +384,7 @@ class _CardEditViewState extends State<CardEditView> {
                   keyboardType: TextInputType.text,
                   onSaved: (String s) => _data.id = s.toUpperCase(),
                   validator: validateCard,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -398,7 +398,7 @@ class _CardEditViewState extends State<CardEditView> {
                   ),
                   keyboardType: TextInputType.text,
                   validator: validatePublicID,
-                  autovalidate: _autoValidateFields,
+                  autovalidateMode: _autoValidateFields,
                 ),
               ),
               ListTile(
@@ -441,7 +441,7 @@ class _CardEditViewState extends State<CardEditView> {
                   // upon trying to add/write invalid data,
                   // it'll be validated every time the fields change
                   // until you save it.
-                  _autoValidateFields = true;
+                  _autoValidateFields = AutovalidateMode.always;
                 });
               }
             },
