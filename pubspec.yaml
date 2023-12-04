@@ -1,0 +1,54 @@
+name: spicecompanion
+description: A companion app for remote controlling SpiceTools.
+
+version: 1.0.10+11
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  #flutter:
+  #  sdk: flutter
+  #cupertino_icons: ^0.1.2
+  pool: ^1.4.0
+  intl: ^0.15.7
+  #shared_preferences: ^0.5.1+1
+  #flutter_nfc_reader:
+  #  path: external/flutter-nfc-reader
+  hex: ^0.1.2
+  #share: ^0.6.0+1
+
+  flutter_web: any
+  flutter_web_ui: any
+
+dev_dependencies:
+  #flutter_test:
+  #  sdk: flutter
+  flutter_launcher_icons: "^0.7.0"
+
+  build_runner: ^1.4.0
+  build_web_compilers: ^2.0.0
+  pedantic: ^1.0.0
+
+dependency_overrides:
+  flutter_web:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web
+  flutter_web_ui:
+    git:
+      url: https://github.com/flutter/flutter_web
+      path: packages/flutter_web_ui
+
+# do `flutter packages pub run flutter_launcher_icons:main` to regenerate icons
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/spice.png"
+
+flutter:
+  # bundle material icons
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/patches/

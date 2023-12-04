@@ -1,0 +1,162 @@
+[
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Standard/Menu Timer Freeze",
+    "description": "Freezes the timer in STANDARD and in-game menus such as song select",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 640350
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Premium Free (1 Player Mode)",
+    "description": "Enables the PREMIUM FREE mode for single-player",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "75",
+        "dataEnabled": "EB",
+        "dataOffset": 381723
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Freezes the timer in PREMIUM FREE mode, allowing unlimited play until exit",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "48",
+        "dataEnabled": "90",
+        "dataOffset": 353197
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Unlock All Songs",
+    "description": "Bypasses all unlock requirements on songs",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "750A",
+        "dataEnabled": "9090",
+        "dataOffset": 363326
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "CS-Style Song Start Delay",
+    "description": "Holding START will pause the song at the beginning until you release it",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "7C",
+        "dataEnabled": "EB",
+        "dataOffset": 490742
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Cursor lock",
+    "description": "After song finishes, song select remains on previous song",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "7423",
+        "dataEnabled": "9090",
+        "dataOffset": 442170
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Volume Bug Fix",
+    "description": "If your volume gets forced to max, turn this on",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "00",
+        "dataEnabled": "01",
+        "dataOffset": 875785
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Replace FREE PLAY text with song name",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "903F1210",
+        "dataEnabled": "24AA4311",
+        "dataOffset": 85050
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "Shorter monitor check",
+    "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "B004",
+        "dataEnabled": "2C01",
+        "dataOffset": 525914
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2015080500,
+    "name": "6 digits in monitor check",
+    "description": "Purely visual, does not affect anything besides the FPS display",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "34",
+        "dataEnabled": "36",
+        "dataOffset": 1501457
+      }
+    ]
+  }
+]

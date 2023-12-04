@@ -1,0 +1,94 @@
+[
+  {
+    "gameCode": "M32",
+    "dateCode": 2018071700,
+    "name": "Timer Freeze",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "0F85AA010000",
+        "dataEnabled": "E9AB01000090",
+        "dataOffset": 48183
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2018071700,
+    "name": "Stage Freeze",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "0F85FB010000",
+        "dataEnabled": "E9FC01000090",
+        "dataOffset": 1414625
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2018071700,
+    "name": "Unlock all songs",
+    "description": "Unlocks all e-amusement songs",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "7100",
+        "dataEnabled": "4D01",
+        "dataOffset": 2010874
+      },
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "7300",
+        "dataEnabled": "4D01",
+        "dataOffset": 2010898
+      },
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "7516",
+        "dataEnabled": "EB23",
+        "dataOffset": 1454068
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2018071700,
+    "name": "Enable Long Music",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "game.dll",
+        "dataDisabled": "7503",
+        "dataEnabled": "9090",
+        "dataOffset": 1454388
+      }
+    ]
+  },
+  {
+    "gameCode": "M32",
+    "dateCode": 2018071700,
+    "name": "Fix IP change error",
+    "description": "",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "libshare-pj.dll",
+        "dataDisabled": "74",
+        "dataEnabled": "EB",
+        "dataOffset": 144245
+      }
+    ]
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "gameCode": "NBT",
+    "dateCode": 2015120100,
+    "name": "E: drive fix",
+    "description": "Fix crash caused by no E: drive",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "beatstream.dll",
+        "dataDisabled": "653A2F",
+        "dataEnabled": "646576",
+        "dataOffset": 11970964
+      }
+    ]
+  },
+  {
+    "gameCode": "NBT",
+    "dateCode": 2015120100,
+    "name": "Unlock all songs",
+    "description": "Bypasses all unlock requirements on songs",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "beatstream.dll",
+        "dataDisabled": "4883FD107209488D7908",
+        "dataEnabled": "BB00000000E9AE010000",
+        "dataOffset": 1523894
+      }
+    ]
+  }
+]

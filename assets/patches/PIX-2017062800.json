@@ -1,0 +1,18 @@
+[
+  {
+    "gameCode": "PIX",
+    "dateCode": 2017062800,
+    "name": "Infinite 1st layer",
+    "description": "Forces the game to be set to 1st layer indefinitely",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "museca.dll",
+        "dataDisabled": "FF8348140000",
+        "dataEnabled": "909090909090",
+        "dataOffset": 1567047
+      }
+    ]
+  }
+]

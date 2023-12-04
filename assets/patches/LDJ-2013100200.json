@@ -1,0 +1,34 @@
+[
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013100200,
+    "name": "Shorter monitor check",
+    "description": "Runs for 300 frames (5 seconds) instead of 1200 (20 seconds), recommended only if you have a very stable framerate",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "B004",
+        "dataEnabled": "2C01",
+        "dataOffset": 439466
+      }
+    ]
+  },
+  {
+    "gameCode": "LDJ",
+    "dateCode": 2013100200,
+    "name": "6 digits in monitor check",
+    "description": "Purely visual, does not affect anything besides the FPS display",
+    "type": "memory",
+    "preset": true,
+    "patches": [
+      {
+        "dllName": "bm2dx.dll",
+        "dataDisabled": "34",
+        "dataEnabled": "36",
+        "dataOffset": 1444613
+      }
+    ]
+  }
+]
